@@ -1,0 +1,171 @@
+body {
+    font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .navbar-brand {
+    color: #fff !important;
+  }
+  .whiteNav {
+    color: #fff !important;
+  }
+
+  .notebook-hero {
+    background: url('/xccer/Aboutme2/IMAGES/bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 30vh 15% 0;
+  }
+
+  .notebook-hero h1,h5 {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .notebook-hero h4 {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .btn {
+    background-color: #f05f40;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 0.75rem 1.75rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+  .btn-lg {
+    padding: 1rem 2rem;
+    font-size: 0.85rem;
+  }
+  .navbar {
+    border-bottom: solid 1px #fff;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  /*ABOUT ME */
+  .about {
+    background: white;
+    padding: 10% 20%;
+    color:black;
+  }
+  .about h2{
+    font-size: 50px;
+  }
+  .about p {
+    color:black;
+    font-size: 25px;
+    
+  }
+  .about .btn {
+    background-color: #fff;
+    color: #000;
+  }
+
+
+ 
+  /* hobby */
+
+
+.theme {
+  background-color: #000;
+}
+
+.theme .title {
+  color: #fff;
+}
+
+.hobbyname{
+  font-size: 50px;
+  padding: 40px;
+}
+
+.services-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+}
+
+.service {
+  color: #fff;
+  background-color: #111;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  transition: all 300ms ease-in-out;
+}
+
+.service span {
+  color: #dd9a05;
+  font-size: 4rem;
+  transition: all 300ms ease-in-out;
+}
+
+.service h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.service p {
+  font-size: 1.4rem;
+  color: #f1f1f1;
+}
+
+.service:hover {
+  background-color: #dd9a05;
+}
+
+.service:hover span {
+  color: #fff;
+}
+  /*Album*/
+  .albumname{
+    font-size: 50px;
+    padding:20px
+  }
+
+  .picture {
+    background: white
+   
+  
+  }
+ .row1{
+   padding-top: 30px;
+   padding-bottom: 20px;
+ }
+ .row2{
+  padding-bottom: 20px;
+}
+
+.picture button{
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+
+/*contact me*/
+.call-me {
+    
+    background-color: black;
+    color: white;
+    padding: 10% 10%;
+
+  }
+
+  
+  
