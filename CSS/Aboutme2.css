@@ -21,7 +21,7 @@ body {
   }
 
   .notebook-hero {
-    background: url('/xccer/Aboutme2/IMAGES/bg.jpg') no-repeat center center;
+    background: url('../IMAGES/bg.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     padding: 30vh 15% 0;
